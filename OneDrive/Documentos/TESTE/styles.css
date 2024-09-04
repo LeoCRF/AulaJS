@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #45a049;
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 2rem;
+}
+article {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+article:hover {
+    transform: translateY(-5px);
+}
+article img, section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: 300px; /* Define a largura fixa */
+    height: 200px; /* Define a altura fixa */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem; /* Diminui a altura do rodapé */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
